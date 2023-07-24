@@ -37,6 +37,15 @@ window = tk.Tk()
 
 # Show About
 def showAbout():
+    ''' Function will return the about information string in a messagebox
+
+        Args:
+            none
+
+        Returns:
+            messagebos.showinfo(title=string1, message=string2): title, description from software
+            
+    '''
     description = "Password Generator GUI \n   Version: 3.0\n   Python Version: 3.11.4\n   Author: Alfonso Zepeda"
     messagebox.showinfo(title="About...", message=description)
 
