@@ -14,7 +14,7 @@
 # Random library
 import random
 
-#Function choose characters
+# Function choose characters
 def chooseChar(choosenString, selectedString):
     ''' Function will return the complete string if selected
 
@@ -41,7 +41,7 @@ def chooseChar(choosenString, selectedString):
         else:
             print('please choose Y\\N')
 
-#Function choose lenght
+# Function choose lenght
 def chooseLenght():
     ''' Function will return the lenght of the password
 
